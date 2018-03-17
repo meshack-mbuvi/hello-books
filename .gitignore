@@ -1,0 +1,12 @@
+# Ignore all files in /bin, /include, /lib, /local and /share folders
+**/bin
+**/include
+**/lib
+**/local
+**/share
+
+#ignore __pycache__ and pip-selfcheck.json
+__pycache__
+pip-selfcheck.json
+
+
