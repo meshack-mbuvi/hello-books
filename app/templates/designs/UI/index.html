@@ -25,7 +25,7 @@
 <body>
 	<div class="container">
 
-		<nav class="navbar navbar-expand-sm bg-info navbar-dark">
+		<nav class="navbar navbar-expand-sm navbar-dark">
 
 			<!-- Brand -->
 			<a class="navbar-brand" href="#"><img src="{{ url_for('static',filename='img/logo.jpg')}}" class="img-fluid rounded"></a>
@@ -78,7 +78,7 @@
 		</div>
 
 		<div class="row">
-		
+
 			<div class="col-sm-12 col-md-3 col-lg-3">
 				<!--carousel -->
 				<div id="sample" class="carousel slide container" data-ride="carousel" >
@@ -173,7 +173,49 @@
 			</div>
 
 
-	</div>
+		</div>
+
+		<div class="row">
+			<!--more books-->
+			<div class="col-sm-12 col-md-3">
+				<div class="items">
+					<img src="{{url_for('static', filename = 'img/room_one.jpeg')}}" class="books rounded">
+					<button type="button" class="btn-success">Borrow this book</button>
+				</div>
+			</div>
+
+			<div class="col-sm-12 col-md-3">
+				<div class="items">
+					<img src="{{url_for('static', filename = 'img/single_woman.jpeg')}}" class=" books rounded">
+					<button type="button" class="btn-success">Borrow this book</button>
+				</div>
+			</div>
+
+			<div class="col-sm-12 col-md-3">
+				<div class="items">
+					<img src="{{url_for('static', filename = 'img/linda.jpg')}}" class="books rounded">
+					<div >
+						<button type="button" class="btn-success text-center">Borrow this book</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!--footer -->	
+		<footer>
+			<div class="row">
+				<div class="col-xs-12 col-md-12 text-center" id="copyright">
+				<p><img src = "{{url_for('static', filename='img/andela.jpeg')}}" id="logo"> Powered by Andela.</p>
+
+				Mbuvi &copy;
+					<script>
+						document.write(new Date().getFullYear());
+					</script>. All Rights Reversed
+				</div>
+			</div>
+		</footer>
+		<!--end of footer -->
 	</div>
 
 	<!--sign in modal-->
@@ -270,13 +312,6 @@
 	<!--end of signup modal-->
 
 
-
-
-
-
-
-
-</div>
 
 </body>
 </html>
