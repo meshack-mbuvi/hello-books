@@ -1,0 +1,98 @@
+body{
+	background-color:#669999;
+}
+.form-element input{
+  background:0 ;
+  border:0;
+  z-index:1;
+  position:relative;
+  width:100%;
+  font-size:1.6em;
+  
+}
+.form-element label{
+  display:block;
+  font-size:1.6em;
+  z-index:0;
+  position:relative;
+  top:2em;
+  margin:0;
+  font-size:.85em;
+  line-height:1.8em;
+  text-align:left;
+  color:#4a876d;
+  opacity:0;
+}
+.form-element-filled label{
+      top:0;
+      opacity:1;
+    }
+.form-element-focused label{
+      color:#800080;
+    }
+.form-element{
+    position:relative;
+    margin-bottom:5px;
+    padding-bottom:5px;
+    border-bottom:1px solid #bcc;
+  resize:none;
+  }
+
+/* set size for items */
+.books {
+	width:250px;
+	height:280px;
+}
+
+.items{
+	margin:1px;
+	border: 1px solid #ccc; 
+
+}
+
+.books, .items{
+	margin-bottom: 5px; 
+}
+/*set size of carousel to be fixed */
+.carousel-item{
+	height:330px;
+	width:330px;
+}
+
+.carousel{
+	border: 1px;
+}
+
+/*Align caption to the left */
+.carousel-caption{
+	margin-left: 0px;
+	align-content:left;
+	border:3px;
+}
+
+.btn{
+  margin-bottom:10px !important;
+}
+
+/*set same color for navigation bar and the footer */
+#copyright, .navbar{  
+  background:#4a876d;
+}
+#copyright{
+	padding-top:20px;
+	margin-bottom: 10px;
+
+}
+/*Get some spacing above the footer */
+footer{
+	margin-top: 10px;
+}
+
+/*set size of the image on footer */
+#logo{
+	width: 30px;
+	height:30px;
+}
+.pull-right{
+	margin:auto;
+}
