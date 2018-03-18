@@ -13,7 +13,8 @@ def signup():
 
 @app.route('/signin', methods=['GET', 'POST'])
 def signin():
-	return render_template('designs/UI/index.html')
+	#After sign in, redirect user to user page
+	return render_template('designs/UI/user.html')
 
 if __name__ == '__main__':
 	app.run(debug=True)
